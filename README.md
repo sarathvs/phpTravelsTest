@@ -16,18 +16,7 @@ testng.xml
 - has the tests that are to be run
 
 Notes:
-1) Test case 4 could not be covered as "Featured tour" is not available.
-https://www.phptravels.net/tours/egypt/alexandria/Spectaculars-Of-The-Nile-3-Nights?date=27/01/2020&adults=2 gives: 
-404
-Oops!! Page not found
-
-Though test 1 to 3 should highlight data parameterization, modularization, execution in parallel, POM model, coding standards,...
-
-2) Test case 1
-Uses loginCredentials.xlsx for login credentials. Since newly created users are not present after sometime, used user@phptravels.com/demouser to demonstrate Dataproviders for all users
-
-3) FlightSearchTests
-Flight search assumes a specific output on filter. But this keeps changing. Hence the count may not match during actual run
+Tests highlight data parameterization, modularization, execution in parallel, POM model, coding standards,...
 
 Steps to run the test:
 1) Pls downloaded external libraries and add to the project
